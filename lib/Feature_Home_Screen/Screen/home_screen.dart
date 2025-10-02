@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
+              //▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼ BODY START ▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
               const SizedBox(height: 60),
 
               UserBar(),
@@ -29,7 +30,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(height: 10),
               Align(
                 alignment: Alignment.centerRight,
-                child: Apptext.subtitle('إحصائياتي '),
+                child: Apptext.subtitle('إحصائياتي'),
               ),
               SizedBox(height: 10),
               ClipRRect(
