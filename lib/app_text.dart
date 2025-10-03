@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'App_Theme/app_colors.dart';
 
 class Apptext {
   static Text title(
@@ -20,8 +21,8 @@ class Apptext {
 
   static Text subtitle(
     String text, {
-    Color color = Colors.white,
-    double fontSize = 20,
+    Color color = AppColors.light100,
+    double fontSize = 30,
     FontWeight fontWeight = FontWeight.w600,
   }) {
     return Text(
@@ -37,9 +38,9 @@ class Apptext {
 
   static Text body(
     String text, {
-    Color color = Colors.white,
-    double fontSize = 16,
-    FontWeight fontWeight = FontWeight.normal,
+    Color color = AppColors.light800,
+    double fontSize = 15,
+    FontWeight fontWeight = FontWeight.bold,
   }) {
     return Text(
       text,

@@ -1,4 +1,5 @@
 import 'package:darkom/App_Theme/app_colors.dart';
+import 'package:darkom/Feature_Setting_Screen/Setting_Screen/Setting_Screen.dart';
 import 'package:darkom/Feature_intro_Screen/Screen/intro_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: AppColors.dark500),
-      home: OnBoardingScreen(),
+      home: SettingScreen(),
     );
   }
 }
