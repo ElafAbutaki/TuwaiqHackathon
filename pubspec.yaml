@@ -37,6 +37,8 @@ flutter:
     - assets/Vector.svg
     - assets/Bell.svg
     - assets/call.svg
+    - assets/search.svg
+    - assets/dots.svg
     - assets/dash_pic.png
     - assets/news1.png
     - assets/news2.png
